@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+html{
+    text-align: left;
+    background-image: url(images/triangle-bg.jpg);
+}
+
+body{
+    margin-top: 50px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.block1{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.block2{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.block-link{
+    padding: 2rem;
+    border: 1.5px solid;
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem;
+    font-size: larger;
+}
+
+.block-link-1{
+    padding: 1rem;
+    border: 1.5px solid;
+    text-decoration: none;
+    color: black;
+    /* margin: 0.5rem; */
+    font-size: larger;
+}
+
+.block-link:hover, .block-link-1:hover{
+    background-color: cadetblue;
+}
+
+.whole{
+    background-color: transparent;
+    margin: 10rem 2rem 1rem 360px;
+    opacity: 0.9;
+    box-shadow: 10px 10px 10px grey;
+    border: 1px solid black;
+    width: 600px;
+    height: auto;
+    text-align: center;
+}
+
+a{
+    font-weight: bold;
+}
+
+.link-social{
+    padding: 0.5rem;
+}
+
+.link-social:hover{
+    filter: invert(5%);
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0.5rem 0.6rem;
+}
+
+.list-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+}
+
+.social-links{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+input{
+    padding: 1rem;
+    display: block;
+    /* margin-left: 125px; */
+    font-size: larger;
+}
+
+label{
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+button{
+    padding: 0.7rem;
+    font-size: larger;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: block;
+    /* margin-left: 200px; */
+}
+
+.quiz-input{
+    display: inline;
+    font-size: larger;
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+}
+
+#output{
+    font-size: larger;
+    background-color: black;
+    padding : 0.5rem;
+    width: max-content;
+    color: cornflowerblue;    
+}
