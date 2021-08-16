@@ -11,7 +11,7 @@ function CalHyp(a, b){
 function checkHyp(){
     const hyp = CalHyp(Number(inputs[0].value), Number(inputs[1].value));
 
-    outputDiv.innerText = "the length of the hupotenuse is" +  hyp;
+    outputDiv.innerText = "the length of the hypotenuse is " +  hyp;
 }
 
 submitBtn.addEventListener("click", checkHyp);
