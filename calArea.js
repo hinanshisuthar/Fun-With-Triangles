@@ -11,8 +11,18 @@ function calArea(base, height){
 }
 
 function submitCheckButton(){
+    if(inputBase.value > 0) {
+        if(inputHeight.value > 0) {
     var finalAns = calArea(Number(inputBase.value), Number(inputHeight.value)); //pass two inputs as base and height
     outputDiv.innerText = "the area of the triangle is " + finalAns;
+    }
+    else{
+        outputDiv.innerText = "Lengths cannot be 0 or -ve"
+    }
+}
+    else{
+        outputDiv.innerText = "Lengths cannot be 0 or -ve"
+    }
 }
 
 checkButton.addEventListener("click", submitCheckButton);
